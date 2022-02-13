@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "gatsby-source-contentful": "^7.5.0"
+  }
+}
