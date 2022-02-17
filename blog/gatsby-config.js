@@ -15,8 +15,8 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `4i5tmtsy99b0`,
-        accessToken: `ahF09qTpWHFG74U3AnNdizQy5UeCQnLjgnneWWbuDAs`
+        spaceId: `${process.env.SPACE_ID}`,
+        accessToken: `${process.env.ACCESS_TOKEN}`
       }
     },
     {
