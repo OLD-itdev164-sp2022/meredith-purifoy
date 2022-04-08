@@ -3,7 +3,7 @@ import mainHeaderImage from './images/react.png'
 import { Search } from 'styled-icons/feather'
 
 const images = {
-    mainHeaderImages
+    mainHeaderImage
 }
 
 const icons = {

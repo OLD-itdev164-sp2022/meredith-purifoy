@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ThemesConsumer } from 'styled-components'
+import { ThemeConsumer } from 'styled-components'
 import { IconButton } from './IconButton'
 
 export const SearchButton = props => (

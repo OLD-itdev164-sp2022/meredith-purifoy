@@ -2,9 +2,10 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import { Flex } from 'rebass'
-import styled, { ThemeConsumer } from 'styled-components'
+import styled from 'styled-components'
+import { ThemeConsumer } from 'styled-components'
 import { H1 } from '../Heading'
-import { IconButton } from '../Button'
+import { SearchButton } from '../Button'
 import { Section } from '../Section'
 
 const Outer = styled.header`
